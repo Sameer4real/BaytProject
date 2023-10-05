@@ -4,19 +4,19 @@ const Customer = () => {
   let customers = [
     {
       name: "Customer 1",
-      image: "../../images/view1.jpg",
+      image: require("../../images/view1.jpg"),
       title: "Trade",
       projects: ["Blablabla", "Blablabla", "Blablabla", "Blablabla"],
     },
     {
       name: "Customer 2",
-      image: "../../images/view2.jpg",
+      image: require("../../images/view2.jpg"),
       title: "Trade",
       projects: ["Blablabla", "Blablabla", "Blablabla", "Blablabla"],
     },
     {
       name: "Customer 3",
-      image: "../../images/view3.jpg",
+      image: require("../../images/view3.jpg"),
       title: "Trade",
       projects: ["Blablabla", "Blablabla", "Blablabla", "Blablabla"],
     },
