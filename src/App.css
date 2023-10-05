@@ -348,7 +348,7 @@ body {
   background-color: rgb(63, 171, 142);
 }
 
-@media (max-width: 470px) {
+@media (max-width: 610px) {
   .options {
     display: none;
     visibility: hidden;
