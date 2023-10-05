@@ -4,19 +4,19 @@ const Customer = () => {
   let customers = [
     {
       name: "Customer 1",
-      image: "./view1.jpg",
+      image: "../../images/view1.jpg",
       title: "Trade",
       projects: ["Blablabla", "Blablabla", "Blablabla", "Blablabla"],
     },
     {
       name: "Customer 2",
-      image: "./view2.jpg",
+      image: "../../images/view2.jpg",
       title: "Trade",
       projects: ["Blablabla", "Blablabla", "Blablabla", "Blablabla"],
     },
     {
       name: "Customer 3",
-      image: "./view3.jpg",
+      image: "../../images/view3.jpg",
       title: "Trade",
       projects: ["Blablabla", "Blablabla", "Blablabla", "Blablabla"],
     },
