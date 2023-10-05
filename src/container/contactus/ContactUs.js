@@ -41,7 +41,7 @@ const ContactUs = () => {
 
       <ContactForm />
       <div className="arrowUp" onClick={() => window.scrollTo(0, 0)}>
-        <spam className="arrowUp-icon">
+        <div className="arrowUp-icon">
           <IoIosArrowUp
             style={{
               color: "black",
@@ -49,7 +49,7 @@ const ContactUs = () => {
               height: "15px",
             }}
           />
-        </spam>
+        </div>
       </div>
     </main>
   );
