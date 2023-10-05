@@ -4,7 +4,7 @@ import Employee from "./Employee";
 
 const TeamSection = () => {
   return (
-    <main className="team">
+    <main className="team" id="team">
       <h2>OUR TEAM</h2>
       <h4 className="employee_job">Meet the team - our office rats:</h4>
 

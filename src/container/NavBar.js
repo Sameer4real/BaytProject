@@ -9,19 +9,34 @@ const NavBar = () => {
   return (
     <main className="nav">
       <section className="nav_left">
-        <button className="logo">
+        <a
+          className="logo"
+          href="https://media.giphy.com/media/mpB75VlHUWWmIX3WbN/giphy.gif"
+          target="blank"
+        >
           {" "}
           <FaHome style={{ color: "white" }} />
           Logo
-        </button>
-        <button className="options">Team</button>
-        <button className="options">Work</button>
-        <button className="options">Price</button>
-        <button className="options">Contact</button>
-        <button className="options">
+        </a>
+
+        <a href="#team" className="options">
+          Team
+        </a>
+
+        <a href="#work" className="options">
+          Work
+        </a>
+
+        <a className="options" href="#">
+          Price
+        </a>
+        <a href="#contact" className="options">
+          Contact
+        </a>
+        <a className="options" href="#">
           Dropdown
           <BiSolidDownArrow />
-        </button>
+        </a>
       </section>
       <section className="nav_right">
         <button className="menu">

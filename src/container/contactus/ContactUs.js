@@ -8,7 +8,7 @@ import { MdOutlineMailOutline, MdLocationOn } from "react-icons/md";
 
 const ContactUs = () => {
   return (
-    <main className="contact">
+    <main className="contact" id="contact">
       <section className="contact_ourinfo">
         <h1 className="contact_h1">Contact Us</h1>
         <h2>Address</h2>
@@ -40,7 +40,7 @@ const ContactUs = () => {
       </section>
 
       <ContactForm />
-      <div className="arrowUp">
+      <div className="arrowUp" onClick={() => window.scrollTo(0, 0)}>
         <spam className="arrowUp-icon">
           <IoIosArrowUp
             style={{

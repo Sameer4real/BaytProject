@@ -4,7 +4,7 @@ import Customer from "./Customer";
 
 const OurWorkSection = () => {
   return (
-    <main className="ourwork">
+    <main className="ourwork" id="work">
       <div className="ourwork_header">
         <h1 className="ourwork_h1">Our Work</h1>
         <p className="ourwork_p">
